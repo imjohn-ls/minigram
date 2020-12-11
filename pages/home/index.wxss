@@ -1,0 +1,32 @@
+.btn-area{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+}
+.btn-area ul {
+  display: block;
+}
+.btn-area ul li {
+  text-align: center;
+  width: 50%;
+  height: 55px;
+  line-height: 28px;
+  float: left;
+}
+.btn-area ul li image{
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+}
+.btn-area ul li text {
+  display: block;
+  font-size: 12px;
+}
+.banner-img {
+  width: 100%;
+}
+.map-test {
+  width: 100%;
+}

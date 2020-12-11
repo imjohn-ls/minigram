@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "calculate": "/components/calculate/calculate"
+  },
+  "navigationBarTitleText": "组件测试"
+}

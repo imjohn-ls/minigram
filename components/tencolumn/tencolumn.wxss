@@ -1,0 +1,28 @@
+/* components/tencolumn/tencolumn.wxss */
+.tenul {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tencolumn {
+  position: relative;
+  flex: 1;
+  min-width: 20%;
+  max-width: 20%;
+  height: 60px;
+  line-height: 29px;
+  list-style: none;
+  text-align: center;
+  padding-top: 15px;
+}
+
+.tenimg{
+  height: 24px;
+  width: 24px;
+  display: block;
+  margin: 0 auto;
+}
+.tentext {
+  font-size: 11px;
+}

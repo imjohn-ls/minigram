@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "tencolumn": "/components/tencolumn/tencolumn"
+  },
+  "navigationBarTitleText": "招商银行"
+}

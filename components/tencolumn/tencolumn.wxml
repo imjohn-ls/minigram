@@ -1,0 +1,12 @@
+<!--components/tencolumn/tencolumn.wxml-->
+<view>
+  <h1>十宫格</h1>
+  <slot name="before"></slot>
+  <ul class="tenul">
+    <li bindtap='_bindWriteStar' data-val="{{item.value}}" class="tencolumn" wx:for="{{datalist}}" wx:key="id">
+      <image class="tenimg" src="{{item.src}}"></image>
+      <text class="tentext">{{item.text}}</text>
+    </li>
+  </ul>
+  <slot name="after"></slot>
+</view>

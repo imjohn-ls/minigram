@@ -1,0 +1,21 @@
+<!--components/calculate.wxml-->
+<view class="content">
+  <text>组件demo</text>
+  <view>
+    <label class="ulabel">
+      <input class="uinput" placeholder="请输入" bindinput="update" type="number" value="{{myvalue}}" />
+    </label> 
+    <text>双向绑定：{{myvalue}}</text>
+  </view>
+  <view>
+    <label class="ulabel">
+      <input class="uinput" type="text" value="{{msg}}" />
+    </label>
+  </view>
+  <view>
+    <button bindtap="startface">上传</button>
+  </view>
+  <view>
+    <input type="file" name="" id="" />
+  </view>
+</view>

@@ -1,0 +1,2 @@
+<!--pages/calculate/calculate.wxml-->
+<calculate bind:getMsgUpate="_getMsgUpate" myvalue="{{myvalue}}"></calculate>

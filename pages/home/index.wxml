@@ -1,0 +1,35 @@
+<view class="">
+  <view>
+    <image class="banner-img" src="../../img/bg.png"></image>
+    <tencolumn id="tencolumn" datalist="{{datalist}}" bind:writeComment="_writeComment">
+      <view slot="before">slot--before</view>
+      <view slot="after">slot--after</view>
+    </tencolumn>
+  </view>
+
+  <view>
+    <text>map-test</text>
+    <map class="map-test"></map>
+  </view>
+  <view>
+    <page-meta background-text-style="{{bgTextStyle}}" background-color="{{bgColor}}"
+      background-color-top="{{bgColorTop}}" background-color-bottom="{{bgColorBottom}}" scroll-top="{{scrollTop}}"
+      page-style="color: green" root-font-size="16px">
+      <navigation-bar title="{{nbTitle}}" loading="{{nbLoading}}" front-color="{{nbFrontColor}}"
+        background-color="{{nbBackgroundColor}}" />
+    </page-meta>
+  </view>
+
+  <view class="btn-area">
+    <ul>
+      <li class="" bindtap="goIndex">
+        <image src="../../img/home.png"></image>
+        <text>首页</text>
+      </li>
+      <li class="" bindtap="goHome">
+        <image src="../../img/mine.png"></image>
+        <text>我的</text>
+      </li>
+    </ul>
+  </view>
+</view>
